@@ -1,4 +1,4 @@
-dnf install install java-21-amazon-corretto -y
+yum install java-21-amazon-corretto -y
 wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.60/bin/apache-tomcat-10.1.60.tar.gz
 tar -zxvf apache-tomcat-10.1.60.tar.gz
 sed -i '56  a\<role rolename="manager-gui"/>' apache-tomcat-10.1.60/conf/tomcat-users.xml
